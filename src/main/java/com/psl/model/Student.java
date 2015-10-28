@@ -1,4 +1,4 @@
-package com.example;
+package com.psl.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
