@@ -17,7 +17,7 @@
 		</servlet-class>
 		<init-param>
 			<param-name>jaxrs.serviceClasses</param-name>
-			<param-value>com.psl.controller.GitHubAuthenticationController</param-value>
+			<param-value>com.psl.model.UserController</param-value>
 		</init-param>
 		
 		<init-param>

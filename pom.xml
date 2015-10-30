@@ -19,6 +19,12 @@
 			<version>2.5</version>
 		</dependency>
 
+	<dependency>
+		<groupId>org.kohsuke</groupId>
+		<artifactId>github-api</artifactId>
+		<version>1.70</version>
+	</dependency>
+
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-frontend-jaxrs</artifactId>
