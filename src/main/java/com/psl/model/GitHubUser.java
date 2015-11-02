@@ -8,11 +8,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * @author Praveen GK
  *
  */
+@XmlRootElement(name = "GitHubUser")
 @Entity
 @Table(name = "GITHUB_USER")
 public class GitHubUser {
