@@ -10,19 +10,12 @@ import com.psl.model.GitHubUser;
 import com.psl.util.HibernateUtil;
 
 /**
- * @author praveen_kumatekar
+ * @author Praveen GK
  *
  */
 public class GitHubAuthenticationDAO implements GitHubAuthenticationDAOImpl {
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.psl.dao.GitHubDAOImpl#save(com.psl.model.GitHubUser)
-	 */
 	public void save(GitHubUser gitHubUser) {
-		// TODO Auto-generated method stub
-
 		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();

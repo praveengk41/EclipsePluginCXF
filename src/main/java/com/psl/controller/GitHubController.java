@@ -4,7 +4,7 @@
 package com.psl.controller;
 
 /**
- * @author praveen_kumatekar
+ * @author Praveen GK
  *
  */
 public class GitHubController {

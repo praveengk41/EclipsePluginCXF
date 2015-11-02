@@ -6,7 +6,7 @@ package com.psl.service;
 import com.psl.model.GitHubUser;
 
 /**
- * @author praveen_kumatekar
+ * @author Praveen GK
  *
  */
 public interface GitHubAuthenticationServiceImpl {

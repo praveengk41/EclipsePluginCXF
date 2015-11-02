@@ -8,19 +8,13 @@ import com.psl.dao.GitHubAuthenticationDAOImpl;
 import com.psl.model.GitHubUser;
 
 /**
- * @author praveen_kumatekar
+ * @author Praveen GK
  *
  */
-public class GitHubAuthenticationService implements GitHubAuthenticationServiceImpl {
-
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see com.psl.service.GithubServiceImpl#save(com.psl.model.GitHubUser)
-	 */
+public class GitHubAuthenticationService implements
+		GitHubAuthenticationServiceImpl {
 
 	public void save(GitHubUser gitHubUser) {
-		// TODO Auto-generated method stub
 		GitHubAuthenticationDAOImpl gitHubDAOImpl = new GitHubAuthenticationDAO();
 		gitHubDAOImpl.save(gitHubUser);
 

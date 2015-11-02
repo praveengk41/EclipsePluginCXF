@@ -7,11 +7,12 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 /**
- * @author praveen_kumatekar
- *
+ * @author Praveen GK
+ * 
  */
 public final class HibernateUtil {
 
+	//Hibernate SessionFactory
 	private static SessionFactory sessionFactory;
 
 	@SuppressWarnings("deprecation")
@@ -20,7 +21,6 @@ public final class HibernateUtil {
 			sessionFactory = new Configuration().configure()
 					.buildSessionFactory();
 		}
-
 		return sessionFactory;
 	}
 }

@@ -10,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * @author praveen_kumatekar
+ * @author Praveen GK
  *
  */
 @Entity
