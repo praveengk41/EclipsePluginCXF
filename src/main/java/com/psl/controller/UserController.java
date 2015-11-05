@@ -18,7 +18,7 @@ public class UserController {
 	@Path("/validate")
 	@Consumes("application/json")
 	@Produces("application/json")
-	public UserDetails ValidateParam(UserDetails userdetail)
+	public UserDetails userValidation(UserDetails userdetail)
 			throws IOException {
 		UserValidation userVal = new UserValidation();
 		try {
